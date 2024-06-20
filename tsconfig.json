@@ -11,6 +11,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "typeRoots": ["./node_modules/@types", "./node_modules/@sanity/vision"],
+    "types": ["@sanity/vision"],
     "incremental": true,
     "plugins": [
       {
