@@ -3,7 +3,7 @@ import { CertificateCard } from "../lib/interface";
 import { client } from "../lib/sanity";
 
 async function getData() {
-  const query = `*[_type == 'certificate'] {
+  const query = `*[_type == 'certificate'] | order(_createdAt desc) {
   title,
     _id,
     link,
@@ -12,7 +12,7 @@ async function getData() {
     "imageUrl": image.asset->url
 }`;
 
-  const data = await client.fetch(query);
+  const data = await client.fetch(query, {}, {next:{revalidate:30}});
 
   return data;
 }
