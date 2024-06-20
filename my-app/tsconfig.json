@@ -1,5 +1,11 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@sanity/vision": ["node_modules/@sanity/vision"]
+    },
+    "typeRoots": ["./node_modules/@types", "./@types"],
+    "types": ["node", "@sanity/vision"],
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
