@@ -1,0 +1,64 @@
+[debug] [2024-06-20T18:51:33.670Z] ----------------------------------------------------------------------
+[debug] [2024-06-20T18:51:33.673Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-06-20T18:51:33.673Z] CLI Version:   13.11.2
+[debug] [2024-06-20T18:51:33.674Z] Platform:      win32
+[debug] [2024-06-20T18:51:33.674Z] Node Version:  v20.13.1
+[debug] [2024-06-20T18:51:33.674Z] Time:          Fri Jun 21 2024 01:51:33 GMT+0700 (Indochina Time)
+[debug] [2024-06-20T18:51:33.674Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-20T18:51:33.813Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-20T18:51:33.814Z] > authorizing via signed-in user (januarramdhani5@gmail.com)
+[debug] [2024-06-20T18:51:33.814Z] [iam] checking project januart-5ed2f for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-06-20T18:51:33.818Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/januart-5ed2f:testIamPermissions [none]
+[debug] [2024-06-20T18:51:33.818Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/januart-5ed2f:testIamPermissions x-goog-quota-user=projects/januart-5ed2f
+[debug] [2024-06-20T18:51:33.819Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/januart-5ed2f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-06-20T18:51:35.116Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/januart-5ed2f:testIamPermissions 200
+[debug] [2024-06-20T18:51:35.116Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/januart-5ed2f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-06-20T18:51:35.118Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/januart-5ed2f [none]
+[debug] [2024-06-20T18:51:35.943Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/januart-5ed2f 200
+[debug] [2024-06-20T18:51:35.943Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/januart-5ed2f {"projectId":"januart-5ed2f","projectNumber":"1054367506121","displayName":"Januart","name":"projects/januart-5ed2f","resources":{"hostingSite":"januart-5ed2f"},"state":"ACTIVE","etag":"1_72cde393-888a-46c6-941d-8bbdeb1166e8"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 14.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2024-06-20T18:51:50.314Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/januart-5ed2f/sites/januart-5ed2f [none]
+[debug] [2024-06-20T18:51:51.356Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/januart-5ed2f/sites/januart-5ed2f 200
+[debug] [2024-06-20T18:51:51.356Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/januart-5ed2f/sites/januart-5ed2f {"name":"projects/januart-5ed2f/sites/januart-5ed2f","defaultUrl":"https://januart-5ed2f.web.app","type":"DEFAULT_SITE"}
+[info]   ▲ Next.js 14.2.4
+
+[info]   - Environments: .env
+
+
+[info]    Creating an optimized production build ...
+
+[info]  ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+
+[info]  ✓ Compiled successfully
+
+[info]    Linting and checking validity of types ...
+
+[info] 
+./app/guestbook/page.tsx
+66:9  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+
+[info] Failed to compile.
+
+
+[info] Type error: Cannot find type definition file for '@sanity/vision'.
+  The file is in the program because:
+    Entry point of type library '@sanity/vision' specified in compilerOptions
+
+
+[debug] [2024-06-20T18:52:28.226Z] Error: ENOENT: no such file or directory, open 'D:\File JanuArt\website\my-app\.next\export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.

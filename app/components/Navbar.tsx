@@ -19,10 +19,11 @@ export const navigationItems = [
     name: "Home",
     href: "/",
   },
-  {
-    name: "Guestbook",
-    href: "/guestbook",
-  },
+  
+  // {
+  //   name: "Guestbook",
+  //   href: "/guestbook",
+  // },
   {
     name: "Certificate",
     href: "/certificate",
@@ -54,7 +55,7 @@ export function Navbar() {
         </NavigationMenu>
       </div>
       <div className="flex items-center justify-end md:col-span-3 col-span-6">
-        <Button className="hidden sm:flex bg-orange-600" asChild><a href="mailto:raffasyafawwazrahmani@gmail.com">Contact Me</a></Button>
+        <Button className="hidden sm:flex bg-orange-600" asChild><a href="mailto:januarramdhani5@gmail.com">Contact Me</a></Button>
         <div className="sm:hidden">
           <MobileMenu/>
         </div>

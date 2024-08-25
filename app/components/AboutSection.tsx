@@ -11,7 +11,7 @@ export function AboutSection() {
         <p className="mt-4 text-muted-foreground lg:text-lg">
           I am a person who is usually called Januar. I have a lot of skills that can be shown while being work. One of the skills that I have, I can operate a computer and are familiar with various Graphic design software, UI/UX, front end, and animation. I also has optimal physical abilities and is always neat, diligent and organized at work.
         </p>
-        <a href="mailto:raffasyafawwazrahmani@gmail.com" className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-orange-600 rounded-xl group mt-10">
+        <a href="mailto:januarramdhani5@gmail.com" className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-orange-600 rounded-xl group mt-10">
           <span className="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-orange-800 rounded group-hover:-mr-4 group-hover:-mt-4">
           <span className="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
           </span>

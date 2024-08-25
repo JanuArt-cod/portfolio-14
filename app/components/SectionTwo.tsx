@@ -24,6 +24,7 @@ import ci from "../../public/tech-icons/ci.svg";
 import linkedin from "../../public/linkedin.svg";
 import insta from "../../public/insta.svg";
 import fb from "../../public/fb.svg";
+import corel from "../../public/tech-icons/corel.svg";
 import { Button } from "@/components/ui/button";
 
 
@@ -38,14 +39,14 @@ const icons = [
   chatgpt,
   github,
   micro,
-  notion,
   chrome,
   vcs,
   laravel,
   ci,
   xampp,
-  boot,
-  google,
+  // boot,
+  // google,
+  // corel,
 ];
 
 const socialMedia = [

@@ -1,3 +1,4 @@
 import { certificateType } from "./certificate";
 
-export const schemaTypes = [certificateType]
+export const schemaTypes = [certificateType];
+
