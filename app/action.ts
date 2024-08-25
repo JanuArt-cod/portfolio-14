@@ -12,12 +12,5 @@ export async function postData(formData:FormData) {
     throw new Error("Unorthrizued");
   }
 
-  const message = formData.get("message") as string;
-  const data = await prisma.guestBookEntry.create({
-    data: {
-      userId: user.id,
-      message: message,
-    },
-  });
-  revalidatePath("/guestbook");
+  
 }
